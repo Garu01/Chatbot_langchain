@@ -105,7 +105,7 @@ class LLMServe:
         return embeddings
 
     def load_retriever(self, embeddings):
-        db = Chroma(persist_directory="chroma_db_pypdf/content/chroma_db_pypdf", embedding_function=embeddings)
+        db = Chroma(persist_directory="content/chroma_db_pypdf", embedding_function=embeddings)
         retriever = RerankRetriever(vectorstore=db)
 
         return retriever
