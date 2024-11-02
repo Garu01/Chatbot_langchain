@@ -4,7 +4,7 @@
 [Download](https://github.com/ollama/ollama) (**recommend install in Windows**)
 check ollama is running or not
 ```ollama serve ```
-### Linux 
+### Linux (I have problem while using Linux so you can read other instruction using Linux)
 You can view [Linux instruction](https://github.com/ollama/ollama/blob/main/docs/linux.md) to view download instruction
 
 ### Download llm model from ollama
@@ -16,6 +16,11 @@ check your model is available or not
 
 ### Download libraries
 ```pip install -r requirements.txt```
+
+### Download chroma_db
+```gdown 1eXcXuDoxJIA8TyJkbpWRLacORumArxXH```
+then unzip file
+```tar -xvf chroma_db_pypdf.zip```
 
 ### Run app 
 ```chainlit run app.py --port 8000```
