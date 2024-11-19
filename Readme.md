@@ -1,4 +1,6 @@
 # Chatbot porject
+you can view my colab [here](https://colab.research.google.com/drive/1hyhNTFxY5rWf6hOxg6705kXP37H1QjjP?usp=sharing)
+
 # Setup instruction
 ## Windows 
 [Download](https://github.com/ollama/ollama) (**recommend install in Windows**)
